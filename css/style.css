@@ -15,6 +15,9 @@ html,
             background-repeat: no-repeat;
             /* 可选：在桌面上固定背景，移动端可能表现差，可根据需求移除 */
             background-attachment: fixed;
+            
+            
+            
         }
 
         /* 让内容在背景之上（用于遮罩等） */
@@ -23,6 +26,7 @@ html,
             z-index: 1;
             padding-top: var(--header-height, 64px);
             /* 为固定头部预留空间，fallback: 64px */
+            
         }
 
         /* 可选遮罩，便于白色文字可读，按需开启/调整透明度 */
@@ -34,6 +38,7 @@ html,
             /* 调整为需要的遮罩色/透明度，或删除此块 */
             pointer-events: none;
             z-index: 0;
+            
         }
 
         /* 背景白色 */
@@ -46,6 +51,7 @@ html,
             background-color: rgba(212, 212, 212, 0.599);
             z-index: -1;
             pointer-events: none;
+            
         }
 
         .about-section {
@@ -1241,6 +1247,7 @@ html,
             flex: 1;
             min-width: 200px;
             text-align: center;
+            
         }
 
         .footer-section h3 {
@@ -1419,4 +1426,9 @@ html,
                 font-size: 0.9rem;
                 padding: 6px 12px;
             }
+        }
+
+
+        .blank{
+            height: 3vw;
         }
